@@ -1,6 +1,6 @@
-# Frontend Mentor - Blog preview card solution
+# Frontend Mentor - Social links profile solution
 
-This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/hossamelgendy101/blog-card)
-- Live Site URL: [Add live site URL here](https://blog-card-liard-iota.vercel.app/)
+- Solution URL: [Add solution URL here](https://github.com/hossamelgendy101/social-linkes-profile)
+- Live Site URL: [Add live site URL here](https://social-linkes-profile.vercel.app/)
 
 ## My process
 
@@ -69,8 +69,8 @@ During this project, I collaborated with an AI assistant (**Claude**) to enhance
 
 ## Author
 
-- Website - (https://blog-card-liard-iota.vercel.app/)
-- Frontend Mentor -(https://www.frontendmentor.io/profile/yourusername)
+- Website - (https://github.com/hossamelgendy101/social-linkes-profile)
+- Frontend Mentor -(https://www.frontendmentor.io/profile/hossamnabil)
 - Twitter - (https://www.twitter.com/hossamelgendy)
 
 
