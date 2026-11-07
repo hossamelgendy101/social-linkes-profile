@@ -1,6 +1,6 @@
 # Frontend Mentor - Social links profile solution
 
-This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -16,8 +16,6 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-
-
 ## Overview
 
 ### The challenge
@@ -29,51 +27,54 @@ Users should be able to:
 ### Screenshot
 
 <p align="center">
-  <img src="assets/images/screenshot.PNG" alt="Project Screenshot" width="600">
+  <img src="assets/images/screenshot.PNG" alt="Screenshot of the social links profile card on a dark background" width="600">
 </p>
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/hossamelgendy101/social-linkes-profile)
-- Live Site URL: [Add live site URL here](https://social-linkes-profile.vercel.app/)
+- GitHub repository: [social-linkes-profile](https://github.com/hossamelgendy101/social-linkes-profile)
+- Live site: [social-linkes-profile.vercel.app](https://social-linkes-profile.vercel.app/)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
+- Semantic HTML5 markup (`main`, `article`, `nav`, `ul`)
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-
 
 ### What I learned
 
-While building this QR code component, I practiced structuring clean HTML and aligning content precisely using Flexbox and precise line-heights to match the design. It helped me reinforce my understanding of responsive design principles and working with style guides.
-
+- **Profile card layout:** I built the card as a single Flexbox column and used `gap` for the spacing between sections instead of margins. I grouped the name and location in their own wrapper so the space between them could be smaller than the space between the other sections.
+- **Link buttons:** I learned why the styling belongs on the `<a>` itself with `display: block`. That way the whole button is clickable, and its height comes from `padding` + `line-height` (12 + 21 + 12 = 45px) instead of a fixed `height`.
+- **Responsive spacing:** I tested the page from 1440px down to 320px. At 320px the bio wraps to two lines, which is the expected behavior and not a bug. I also learned to use `max-width` with `width: 100%` instead of fixed widths, and `rem` for font sizes.
+- **Hover and focus states:** I added `:hover` and `:focus-visible` styles so keyboard users get the same visible feedback as mouse users, and checked it by navigating with the Tab key.
+- **Design tools:** I practiced reading values (sizes, colors, spacing, typography) from the Figma file and converting them into CSS.
 
 ### Continued development
 
-In future projects, I want to focus more on advanced CSS layouts and improving my workflow efficiency with design tools like Figma.
-
+- Add a `transition` to the link states and compare it with the design.
+- Practice `@media` queries on a challenge where the layout actually changes between mobile and desktop.
+- Add JavaScript interactions in the next projects.
+- Optimize images (size and format) before publishing.
 
 ### AI Collaboration
 
 During this project, I collaborated with an AI assistant (**Claude**) to enhance my workflow and problem-solving process.
 
-- **Tools used:** Claude (as a technical consultant and brainstorming partner).
-- **How I used it:** I utilized the AI primarily for **brainstorming solutions** and architectural guidance, specifically when figuring out how to format text lines properly, align elements precisely, and structure the layout elements matching the design requirements.
-- **What worked well:** The brainstorming sessions and suggested solutions for text formatting and positioning were extremely accurate and worked seamlessly on the first try. It helped me understand *why* certain CSS approaches work best rather than just providing blind code snippets.
-- **What didn't:** Everything went smoothly as I maintained full control over hand-coding and implementing the solutions myself.
+- **Tools used:** Claude, as a technical consultant and brainstorming partner.
+- **How I used it:** For brainstorming, code review, and explanations, such as how to structure the HTML, why certain CSS approaches work, and how to test responsiveness.
+- **What worked well:** The explanations helped me understand *why* an approach works rather than just giving me code to copy.
+- **What I did myself:** I wrote and implemented the code by hand and fixed the issues that came up in review.
 
 ## Author
 
-- Website - (https://github.com/hossamelgendy101/social-linkes-profile)
-- Frontend Mentor -(https://www.frontendmentor.io/profile/hossamnabil)
-- Twitter - (https://www.twitter.com/hossamelgendy)
-
+- GitHub - [@hossamelgendy101](https://github.com/hossamelgendy101)
+- Frontend Mentor - [@hossamnabil](https://www.frontendmentor.io/profile/hossamnabil)
+- Twitter - [@hossamelgendy](https://www.twitter.com/hossamelgendy)
 
 ## Acknowledgments
-- Thanks to **Frontend Mentor** for this amazing challenge.
+
+- Thanks to **Frontend Mentor** for this challenge.
 - Thanks to the developer community and AI assistant tools for guidance and brainstorming support.
